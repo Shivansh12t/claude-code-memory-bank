@@ -12,7 +12,27 @@
       "skills": [
         "./"
       ],
-      "description": "Persistent project memory with architect, ask, code and debug modes"
+      "description": "Persistent project memory for Claude Code: a Memory Bank skill with architect, ask, code and debug modes that keeps context, decisions and progress across sessions.",
+      "author": {
+        "name": "Shivansh Tuteja"
+      },
+      "homepage": "https://github.com/Shivansh12t/claude-code-memory-bank",
+      "repository": "https://github.com/Shivansh12t/claude-code-memory-bank",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "memory",
+        "memory-bank",
+        "context",
+        "persistent-memory",
+        "project-context",
+        "session-memory",
+        "architecture",
+        "decision-log",
+        "roo-code",
+        "claude-code",
+        "skill"
+      ]
     }
   ]
 }

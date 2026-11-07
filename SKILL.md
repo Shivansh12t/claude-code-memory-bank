@@ -1,6 +1,6 @@
 ---
 name: memory-bank
-description: 'Project context memory system. Use `/memory-bank architect <prompt>` to initialize, query, or update project memory files (productContext, activeContext, progress, decisions, patterns). Maintains persistent state across sessions via timestamped logs.'
+description: 'Persistent project memory (Memory Bank) for Claude Code. Use when the user wants to remember project context across sessions, log architectural decisions, track progress, or ground answers in prior context. Commands: `/memory-bank architect|ask|code|debug <prompt>`, or say "UMB" / "Update Memory Bank". Maintains productContext, activeContext, progress, decisionLog and systemPatterns files with timestamped entries.'
 argument-hint: '[architect|ask|code|debug] <optional prompt>'
 ---
 
