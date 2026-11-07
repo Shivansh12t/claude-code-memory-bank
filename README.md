@@ -15,6 +15,15 @@ Memory Bank is a plug-and-play skill for Copilot and Claude code agents, inspire
 
 ## Installation
 
+### Option A: Plugin marketplace (recommended)
+
+```
+/plugin marketplace add Shivansh12t/claude-code-memory-bank
+/plugin install memory-bank@claude-code-memory-bank
+```
+
+### Option B: Manual clone
+
 1. Open your terminal and navigate to your `.claude/skills/` directory (create it if it doesn't exist):
    ```sh
    mkdir -p ~/.claude/skills/

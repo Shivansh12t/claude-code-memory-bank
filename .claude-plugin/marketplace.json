@@ -1,0 +1,18 @@
+{
+  "name": "claude-code-memory-bank",
+  "description": "Memory Bank: persistent project context for Claude Code",
+  "owner": {
+    "name": "Shivansh Tuteja"
+  },
+  "plugins": [
+    {
+      "name": "memory-bank",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "description": "Persistent project memory with architect, ask, code and debug modes"
+    }
+  ]
+}
